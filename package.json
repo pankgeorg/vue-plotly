@@ -1,6 +1,6 @@
 {
   "name": "vue-plotly",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve ./example/main.js --open",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/David-Desmaisons/vue-plotly.git"
+    "url": "https://github.com/pankgeorg/vue-plotly.git"
   },
   "main": "dist/vue-plotly.umd.js",
   "module": "dist/vue-plotly.common.min.js",
@@ -24,23 +24,24 @@
     "src/*"
   ],
   "dependencies": {
-    "core-js": "^3.6.4",
-    "plotly.js": "^1.52.1",
-    "vue": "^2.6.11",
+    "core-js": "^3.21.1",
+    "plotly.js": "^2.11.1",
+    "vue": "^2.6.14",
     "vue-resize-directive": "^1.2.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.2",
-    "@vue/cli-plugin-eslint": "^4.1.2",
-    "@vue/cli-plugin-unit-jest": "^4.1.2",
-    "@vue/cli-service": "^4.1.2",
+    "@babel/core": "^7.17.7",
+    "@vue/cli-plugin-babel": "^5.0.3",
+    "@vue/cli-plugin-eslint": "^4.5.16",
+    "@vue/cli-plugin-unit-jest": "^4.5.16",
+    "@vue/cli-service": "^4.5.16",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/test-utils": "1.0.0-beta.31",
     "@vuedoc/md": "^1.6.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^24.9.0",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.6.1",
+    "bubleify": "^2.0.0",
     "codecov": "^3.6.1",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
